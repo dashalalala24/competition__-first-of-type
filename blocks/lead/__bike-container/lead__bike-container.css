@@ -1,0 +1,10 @@
+.lead__bike-container {
+  position: absolute;
+  max-width: 440px;
+  max-height: 430px;
+  height: 100%;
+  width: 100%;
+  bottom: 79px;
+  right: 370px;
+  z-index: 1;
+}

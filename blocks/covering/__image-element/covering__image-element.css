@@ -1,0 +1,8 @@
+.covering__image-element {
+  position: absolute;
+  left: 0;
+  bottom: 16px;
+  max-width: 100px;
+  z-index: 1;
+  margin: 0;
+}

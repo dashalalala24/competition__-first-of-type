@@ -1,0 +1,9 @@
+.lead__image {
+  grid-row: 1/-1;
+  grid-column-start: 2;
+  max-width: 610px;
+  width: 100%;
+  min-height: 836px;
+  position: relative;
+  padding-top: 20px;
+}

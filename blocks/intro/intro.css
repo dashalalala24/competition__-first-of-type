@@ -1,0 +1,10 @@
+.intro {
+  max-width: 1200px;
+  width: calc(1200 / 1440 *100%);
+  margin: 120px auto 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: calc(650 / 1200 * 100%) calc(470 / 1200 * 100%);
+  grid-template-rows: repeat(3, min-content);
+  column-gap: calc(80 / 1200 * 100%);
+}

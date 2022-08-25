@@ -1,0 +1,13 @@
+.intro__quote {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  max-width: 470px;
+  width: 100%;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 129%;
+  letter-spacing: -0.5px;
+  color: #151515;
+  padding: 0;
+  margin: 0;
+}

@@ -1,5 +1,5 @@
 .bikes__type {
-  margin: 0 0 0 37px;
+  margin: 0;
   padding: 0;
   font-weight: 400;
   font-size: 18px;
@@ -11,8 +11,4 @@
 
 .bikes__type:hover {
   opacity: 0.6;
-}
-
-.bikes__type:first-of-type {
-  margin: 0;
 }

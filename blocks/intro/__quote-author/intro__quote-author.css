@@ -1,0 +1,13 @@
+.intro__quote-author {
+  max-width: 121px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 160%;
+  color: #151515;
+  text-align: left;
+  padding: calc(250 / 460 * 100%) 0 0;
+  margin:0;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  text-decoration: none;
+}

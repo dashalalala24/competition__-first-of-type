@@ -2,6 +2,8 @@
   padding-top: 38.57%;
   align-self: end;
   grid-column-start: 1;
+  display: flex;
+  gap: 30px;
 }
 
 @media screen and (max-width: 768px) {

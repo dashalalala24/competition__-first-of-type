@@ -1,0 +1,13 @@
+.lead {
+  display: grid;
+  max-width: 1320px;
+  width: 100%;
+  grid-template-columns: repeat(2, auto);
+  /*grid-template-rows: repeat(4, min-content);*/
+  grid-template-rows: 200px min-content min-content min-content;
+
+  column-gap: 250px;
+  margin: 74px 0 0 calc(120 / 1440 * 100%);
+  padding: 0;
+  position: relative;
+}

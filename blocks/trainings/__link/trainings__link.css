@@ -1,5 +1,5 @@
 .trainings__link {
-  margin: 0 26px 0 0;
+  margin: 0;
   padding: 0;
   font-weight: 600;
   font-size: 18px;
@@ -7,10 +7,6 @@
   color: #151515;
   text-decoration: none;
   transition: opacity .6s;
-}
-
-.trainings__link:last-of-type {
-  margin: 0;
 }
 
 .trainings__link:hover {

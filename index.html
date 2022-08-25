@@ -4,18 +4,54 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="keywords" content="">
-  <meta name="author" content="">
+  <meta name="description" content="Лэндинг сервиса по подбору велосипедов">
+  <meta name="keywords" content="Велосипед, Шоссе, ТТ, Грэвел, Велотренировки">
+  <meta name="author" content="Лазарчук Дарья, Екатерина Величко">
   <link rel="stylesheet" href="./pages/index.css">
   <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
-  <title></title>
+  <title>Road Сlub</title>
 </head>
 
 <body>
   <div class="page">
+    <header class="header">
+      <nav class="header__nav">
+        <a class="header__link" href="#covering">Покрытия и градиенты</a>
+        <a class="header__link" href="#bikes">Велосипеды</a>
+        <a class="header__link" href="#trainings">Тренировки</a>
+      </nav>
+    </header>
     <main class="content">
-      <section class="bikes">
+      <section class="lead">
+        <h1 class="section-title">Шоссе, ТТ и&nbsp;Грэвел</h1>
+        <img class="lead__image" src="./images/lead.jpg" alt="Дорога, идущая через лес">
+        <div class="lead__bike-container"><img class="lead__bike-image" src="./images/lead_bike.png"></div>
+        <a class="lead__link"
+          href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J"
+          target="_blank">Cannondale Systemsix</a>
+        <p class="section-subtitle">Триатлонные старты, горные серпантины или грейвел заезды по&nbsp;живописным
+          маршрутам&nbsp;&mdash; нужно только определиться с&nbsp;выбором велосипеда и&nbsp;отправиться в&nbsp;путь.</p>
+        <button class="lead__button" type="button">Подробнее</button>
+      </section>
+      <section class="intro">
+        <img class="intro__image" src="./images/intro.jpg" alt="Велосипедист едет по дороге, уходящей в горы">
+        <blockquote class="intro__quote">&laquo;Катайся много или мало, долго или коротко, как хочешь&nbsp;-
+          но&nbsp;катайся&raquo;</blockquote>
+        <p class="intro__quote-author">Эдди Меркс</p>
+        <p class="intro__quote-author-subline">Велогонщик</p>
+      </section>
+      <section class="covering" id="covering">
+        <h2 class="section-title">Шоссе</h2>
+        <div class="covering__images">
+          <img class="covering__image" src="./images/covering_asphalt.jpg" alt="Дорога вдоль гор">
+          <img class="covering__image" src="./images/covering_gravel.jpg" alt="Велосипедист едет по лесной тропинке">
+          <img class="covering__image-element" src="./images/covering-type.svg" alt="Символ асфальтового покрытия">
+        </div>
+        <p class="section-subtitle">На&nbsp;шоссейном велосипеде можно ездить по асфальту на&nbsp;разных
+          градиентах: будь&nbsp;то горы или равнины. Гонки проходят в&nbsp;командном пелотоне, но&nbsp;тренироваться
+          можно и&nbsp;самостоятельно.</p>
+      </section>
+      <section class="bikes" id="bikes">
         <div class="bikes__header">
           <h2 class="section-title">Велосипеды</h2>
           <div class="bikes__types">
@@ -52,7 +88,7 @@
           <img class="bikes__switch" src="./images/slider-switch.svg">
         </div>
       </section>
-      <section class="trainings">
+      <section class="trainings" id="trainings">
         <h2 class="section-title">Тренировки</h2>
         <img class="trainings__image" src="./images/trainings.jpg" alt="Шоссе среди деревьев после дождя">
         <p class="section-subtitle">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot,
@@ -63,7 +99,6 @@
           <a class="trainings__link" href="https://www.komoot.com/" target="_blank">Komoot</a>
         </div>
       </section>
-
       <footer class="footer">
         <h3 class="footer__title">Подпишитесь на рассылку —</h3>
         <div class="footer__input">
