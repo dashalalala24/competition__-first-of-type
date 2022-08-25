@@ -1,13 +1,28 @@
 .lead {
   display: grid;
   max-width: 1320px;
-  width: 100%;
+  width: 91.66%;
   grid-template-columns: repeat(2, auto);
-  /*grid-template-rows: repeat(4, min-content);*/
   grid-template-rows: 200px min-content min-content min-content;
-
   column-gap: 250px;
   margin: 74px 0 0 calc(120 / 1440 * 100%);
   padding: 0;
   position: relative;
+}
+@media screen and (max-width: 1368px) {
+  .lead {
+    grid-template-columns: calc(460 / 1320 * 100%) calc(610 / 1320 * 100%);
+    gap: calc(250 / 1320 * 100%);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead {
+    margin: 74px 18px 0;
+    padding: 40px 0 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+  }
 }

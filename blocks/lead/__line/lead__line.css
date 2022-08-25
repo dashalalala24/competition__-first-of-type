@@ -1,0 +1,16 @@
+.lead__line {
+  border: 2px solid #D7D4D4;
+  width: 128px;
+  display: block;
+  margin: 167px 0 209px 224px;
+  padding: 0;
+  grid-row-start: 4;
+  grid-column: 1;
+  align-self: center;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__line {
+    display: none;
+  }
+}

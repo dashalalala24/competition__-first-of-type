@@ -2,11 +2,21 @@
   position: sticky;
   top: 347px;
   box-shadow: -20px 60px 220px 0px rgba(0, 0, 0, 0.2);
-  border-width: 20px 50px 20px 50px;
+  border-width: 20px 50px;
   border-style: solid;
   border-color: #F4F4F4;
   background-color: #F4F4F4;
   border-radius: 20px;
-  max-width: 340px;
+  max-width: 440px;
   width: 100%;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 320px) {
+  .lead__bike-image {
+    border-width: 10.67px 26.59px;
+    max-width: 234px;
+    width: auto;
+
+  }
 }

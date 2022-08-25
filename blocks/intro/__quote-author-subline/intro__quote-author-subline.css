@@ -11,3 +11,11 @@
   color: #222;
   opacity: 70%;
 }
+
+@media screen and (max-width: 768px) {
+  .intro__quote-author-subline {
+    padding-top: 4px;
+    font-size: 10px;
+    line-height: 160%;
+  }
+}

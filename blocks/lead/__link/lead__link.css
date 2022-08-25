@@ -14,3 +14,9 @@
 .lead__link:hover {
   opacity: 0.75;
 }
+
+@media screen and (max-width: 768px) {
+  .lead__link{
+    display: none;
+  }
+}

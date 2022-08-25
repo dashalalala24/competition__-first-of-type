@@ -5,8 +5,10 @@
   width: calc(1200 / 1440 * 100%);
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .bikes {
     width: 88.75%;
+    padding: 39px 0 80px;
+    border-top: 1px solid #E3E3E3;
   }
 }

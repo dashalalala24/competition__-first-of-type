@@ -3,8 +3,26 @@
   max-width: 440px;
   max-height: 430px;
   height: 100%;
-  width: 100%;
+  width: calc(440 / 1320 * 100%);
   bottom: 79px;
-  right: 370px;
+  right: 25.69vw;
   z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__bike-container {
+    bottom: 275px;
+    left: 30px;
+    max-width: 234px;
+    max-height: 188px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+.lead__bike-container {
+  top: 283px;
+  left: 0;
+  max-width: 234px;
+  min-height: 188px;
+}
 }

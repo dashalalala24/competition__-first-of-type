@@ -10,6 +10,12 @@
   max-width: 460px;
 }
 
+@media screen and (max-width: 768px) {
+  .section-title {
+    align-self: start;
+  }
+}
+
 @media screen and (max-width: 390px) {
   .section-title {
     font-size: 32px;

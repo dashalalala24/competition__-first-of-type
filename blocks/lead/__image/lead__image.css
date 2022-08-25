@@ -3,7 +3,16 @@
   grid-column-start: 2;
   max-width: 610px;
   width: 100%;
-  min-height: 836px;
   position: relative;
   padding-top: 20px;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 320px) {
+  .lead__image {
+    max-width: 254px;
+    width: 100%;
+    padding-top: 40px;
+    margin-left: 30px;
+  }
 }
