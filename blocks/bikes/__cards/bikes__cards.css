@@ -1,0 +1,13 @@
+.bikes__cards {
+  display: flex;
+  margin: 116px 0 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .bikes__cards {
+    margin-top: 18px;
+    flex-direction: column;
+  }
+}
+

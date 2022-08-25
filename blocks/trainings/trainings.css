@@ -1,0 +1,27 @@
+.trainings {
+  padding: 212px 0 120px;
+  margin: 0 auto;
+  max-width: 1200px;
+  width: calc(1200 / 1440 * 100%);
+  display: grid;
+  grid-template-columns: calc(460 / 1200 * 100%) calc(580 / 1200 * 100%);
+  grid-template-rows: 60px min-content min-content;
+  column-gap: calc(160 / 1200 * 100%);
+}
+
+@media screen and (max-width: 768px) {
+  .trainings {
+    display: flex;
+    flex-direction: column;
+    padding: 150px 0 60px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .trainings {
+    padding-top: 119px;
+    display: flex;
+    flex-direction: column;
+    width: 88.75%;
+  }
+}

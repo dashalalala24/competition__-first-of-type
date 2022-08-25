@@ -1,0 +1,9 @@
+.bikes__type_enabled {
+  font-weight: 600;
+  color: #151515;
+  transition: opacity .6s;
+}
+
+.bikes__type:hover {
+  opacity: 0.75;
+}

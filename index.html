@@ -8,10 +8,69 @@
   <meta name="keywords" content="">
   <meta name="author" content="">
   <link rel="stylesheet" href="./pages/index.css">
-  <link rel="icon" href="" type="image/x-icon">
+  <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
   <title></title>
 </head>
 
 <body>
+  <div class="page">
+    <main class="content">
+      <section class="bikes">
+        <div class="bikes__header">
+          <h2 class="section-title">Велосипеды</h2>
+          <div class="bikes__types">
+            <a class="bikes__type bikes__type_enabled" href="#">Шоссе</a>
+            <a class="bikes__type" href="#">Грэвел</a>
+            <a class="bikes__type" href="#">ТТ</a>
+          </div>
+          <div class="bikes__select">
+            <p class="bikes__select-option">Шоссе</p>
+            <img class="bikes__select-arrow" src="./images/select-arrow.svg">
+          </div>
+        </div>
+        <div class="bikes__cards">
+          <figure class="bikes__card">
+            <a class="" href="https://www.sigmasports.com/item/Cervelo/Caledonia-5-Ultegra-Disc-Road-Bike-2021/RDEN"
+              target="_blank">
+              <img class="bikes__image" src="./images/bikes_cervelo.png" alt="Велосипед Cervelo Caledonia-5"></a>
+            <figcaption class="bikes__caption">Cervelo Caledonia-5</figcaption>
+          </figure>
+          <figure class="bikes__card">
+            <a class=""
+              href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J"
+              target="_blank">
+              <img class="bikes__image" src="./images/bikes_cannondale.png"
+                alt="Велосипед Cannondale Systemsix Himod"></a>
+            <figcaption class="bikes__caption">Cannondale Systemsix Himod</figcaption>
+          </figure>
+          <figure class="bikes__card">
+            <a class="" href="https://www.sigmasports.com/item/Trek/Domane-SL-7-Force-eTap-AXS-Disc-Road-Bike-2021/RULF"
+              target="_blank">
+              <img class="bikes__image" src="./images/bikes_trek.png" alt="Велосипед Trek Domane SL-7"></a>
+            <figcaption class="bikes__caption">Trek Domane SL-7</figcaption>
+          </figure>
+          <img class="bikes__switch" src="./images/slider-switch.svg">
+        </div>
+      </section>
+      <section class="trainings">
+        <h2 class="section-title">Тренировки</h2>
+        <img class="trainings__image" src="./images/trainings.jpg" alt="Шоссе среди деревьев после дождя">
+        <p class="section-subtitle">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot,
+          а&nbsp;записать эти тренировки поможет приложение Strava, а&nbsp;также это приложение позволит построить
+          тренировочный план.</p>
+        <div class="trainings__links">
+          <a class="trainings__link" href="https://www.strava.com/" target="_blank">Strava</a>
+          <a class="trainings__link" href="https://www.komoot.com/" target="_blank">Komoot</a>
+        </div>
+      </section>
 
+      <footer class="footer">
+        <h3 class="footer__title">Подпишитесь на рассылку —</h3>
+        <div class="footer__input">
+          <p class="footer__input-placeholder">Ваш e-mail</p>
+        </div>
+        <p class="footer__copyright">&copy; Road Club 2021</p>
+      </footer>
+    </main>
+  </div>
 </body>

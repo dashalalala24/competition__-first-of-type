@@ -1,0 +1,29 @@
+.bikes__card {
+  margin: 0 30px 0 0;
+  padding: 0;
+  max-width: 380px;
+}
+
+.bikes__card:last-of-type {
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .bikes__card {
+    display: none;
+  }
+
+  .bikes__card:first-of-type {
+    display: block;
+    width: 100%;
+    max-width: 688px;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .bikes__card {
+    margin: 0 auto;
+    max-width: 284px;
+  }
+}

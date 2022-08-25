@@ -1,0 +1,13 @@
+.trainings__image {
+  max-width: 580px;
+  width: 100%;
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .trainings__image {
+    margin-top: 40px;
+    max-width: 638px;
+  }
+}

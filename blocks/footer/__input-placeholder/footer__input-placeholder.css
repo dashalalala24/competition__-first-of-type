@@ -1,0 +1,25 @@
+.footer__input-placeholder {
+  margin: 0;
+  padding: 11px 0 11px 20px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 215%;
+  color: #222;
+  opacity: 0.7;
+}
+
+.footer__input-placeholder:hover {
+  color: #151515;
+  opacity: 1;
+}
+
+.footer__input-placeholder:active{
+  display: none;
+}
+
+@media screen and (max-width: 390px) {
+  .footer__input-placeholder {
+    padding: 12px 0 11px 19px;
+  }
+}
+
