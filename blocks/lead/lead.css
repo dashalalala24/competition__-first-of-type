@@ -3,7 +3,7 @@
   max-width: 1320px;
   width: 91.66%;
   grid-template-columns: repeat(2, auto);
-  grid-template-rows: 200px min-content min-content min-content;
+  grid-template-rows: 201px min-content min-content min-content;
   column-gap: 250px;
   margin: 74px 0 0 calc(120 / 1440 * 100%);
   padding: 0;
