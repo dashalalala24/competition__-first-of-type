@@ -10,13 +10,6 @@
   align-self: center;
 }
 
-/*
-@media screen and (max-width: 1280px) {
-  .lead__line {
-    margin: 15% 0 10% 224px;
-  }
-}*/
-
 @media screen and (max-width: 1280px) {
   .lead__line {
     margin: 0 0 20% 224px;

@@ -4,3 +4,9 @@
   font-size: 11.5px;
   line-height: 127%;
 }
+
+@media screen and (max-width: 768px) {
+  .bikes__select-option {
+    padding: 7px 0 7px 11px;
+  }
+}

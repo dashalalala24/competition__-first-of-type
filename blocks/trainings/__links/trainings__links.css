@@ -1,14 +1,15 @@
 .trainings__links {
-  padding-top: 38.57%;
+  padding-top: 39.5%;
   align-self: end;
   grid-column-start: 1;
   display: flex;
-  gap: 30px;
+  gap: 29px;
 }
 
 @media screen and (max-width: 768px) {
   .trainings__links {
     align-self: flex-start;
-    padding-top: 39px;
+    gap: 30px;
+    padding-top: 40px;
   }
 }

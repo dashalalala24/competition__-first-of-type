@@ -33,6 +33,7 @@
 
 @media screen and (max-width: 320px) {
   .lead__bike-container {
+    width: 80%;
     top: 283px;
     max-width: 234px;
     max-height: 188px;

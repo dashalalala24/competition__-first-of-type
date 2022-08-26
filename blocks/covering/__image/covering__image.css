@@ -2,3 +2,9 @@
   max-width: 650px;
   width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+  .covering__image:last-of-type {
+    display: none;
+  }
+}

@@ -1,15 +1,14 @@
 .bikes__cards {
   display: flex;
   gap: 30px;
-  margin: 118px 0 0;
+  margin: 117px 0 0;
   padding: 0;
 }
 
 @media screen and (max-width: 768px) {
   .bikes__cards {
     gap: 0;
-    margin-top: 18px;
+    margin-top: 20px;
     flex-direction: column;
   }
 }
-

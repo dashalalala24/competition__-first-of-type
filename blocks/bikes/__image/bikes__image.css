@@ -8,6 +8,7 @@
   border: 20px solid #F4F4F4;
   background-color: #F4F4F4;
   border-radius: 20px;
+  transition: filter .3s;
 }
 
 .bikes__image:hover {

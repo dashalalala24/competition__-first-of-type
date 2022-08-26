@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 320px) {
   .bikes__caption {
-    top: -38px;
-    left: 22.5vw;
+    top: -56px;
+    right: 3px;
   }
 }
