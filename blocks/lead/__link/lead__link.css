@@ -3,7 +3,9 @@
   font-size: 18px;
   line-height: 100%;
   color: #151515;
-  padding: 170px 0 209px;
+  /*padding: 170px 0 209px;*/
+  margin: 35% 0 44%;
+  padding: 0;
   grid-row: 4/5;
   grid-column: 1/2;
   max-width: 194px;
@@ -15,8 +17,16 @@
   opacity: 0.75;
 }
 
-@media screen and (max-width: 768px) {
-  .lead__link{
+@media screen and (max-width: 1280px) {
+  .lead__link {
+    margin: 0 0 20%;
+    align-self: center;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  .lead__link {
     display: none;
   }
 }

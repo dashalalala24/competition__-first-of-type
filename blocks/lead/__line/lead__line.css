@@ -2,14 +2,28 @@
   border: 2px solid #D7D4D4;
   width: 128px;
   display: block;
-  margin: 167px 0 209px 224px;
+  /*margin: 167px 0 209px 224px;*/
+  margin: 35% 0 44% 224px;
   padding: 0;
   grid-row-start: 4;
   grid-column: 1;
   align-self: center;
 }
 
-@media screen and (max-width: 768px) {
+/*
+@media screen and (max-width: 1280px) {
+  .lead__line {
+    margin: 15% 0 10% 224px;
+  }
+}*/
+
+@media screen and (max-width: 1280px) {
+  .lead__line {
+    margin: 0 0 20% 224px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
   .lead__line {
     display: none;
   }

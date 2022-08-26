@@ -12,11 +12,16 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .lead__bike-image {
     border-width: 10.67px 26.59px;
-    max-width: 234px;
-    width: auto;
+    max-width: 460px;
+    width: 100%;
+  }
+}
 
+@media screen and (max-width: 320px) {
+  .lead__bike-image {
+    max-width: 234px;
   }
 }

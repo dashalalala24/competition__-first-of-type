@@ -12,6 +12,12 @@
   text-decoration: none;
 }
 
+@media screen and (max-width: 1024px) {
+  .intro__quote-author {
+    padding: calc(120 / 460 * 100%) 0 0;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .intro__quote-author {
     padding-top: 38px;

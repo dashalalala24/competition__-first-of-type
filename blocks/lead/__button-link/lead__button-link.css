@@ -1,0 +1,10 @@
+.lead__button-link {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 129%;
+  text-align: center;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #FFFFFF;
+  z-index: 3;
+}
